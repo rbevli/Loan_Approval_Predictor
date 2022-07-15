@@ -3,14 +3,26 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+- Automate Loan Eligibility Process based on customer details.
+- Details: Gender, Marital Status, Education, Number of Dependents, Household Income, Loan Amount Requested, Credit History guidelines along with factors such as Property type etc.
+- Loan Approval and judging these categories is often a cumbersome process, by this model we aim to automate and make the loan approval predictions easier
+
 
 ## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+Explore and visualize certain possible contributing factors such as :
+- Effect of Credit History on Loan Approval
+    This can be a contributing factor as a person's credit history is always looked at to determine loan eligibility
+- Income Level and Education Level on Loan Approval
+    
+- Property type and Location on Loan Approval
+
+The aforementioned hypothesis will be looked at through data visualisation techniques along with
+their affect on the final predicted value. The effect of these features will be looked at along with their contribution to the classification model.
+
+
 
 ## EDA 
-(fill in what you discovered in your exploration of the dataset)
-
+During the EDA phase, many key findings were found that could be major contributing factors to the performance of the classification model. Credi History, Higher Loan Amount term, Higher Applicant and Coapplicant Income, Higher Loan Amount are factors that positively contribute to the Loan Application getting approved.
 
 ## Process
 (fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
